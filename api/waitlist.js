@@ -7,6 +7,11 @@ const DB_NAME = 'karma_ritual';
 let cachedClient = null;
 
 async function connectToDatabase() {
+  // Проверка что MONGODB_URI установлена
+  if (!MONGODB_URI) {
+    throw new Error('MONGODB_URI is not defined in environment variables');
+  }
+
   if (cachedClient) {
     return cachedClient;
   }
