@@ -1,0 +1,27 @@
+{
+  "name": "karma-ritual",
+  "version": "1.0.0",
+  "description": "KARMA.RITUAL - A decentralized cult where your social actions become sacred rituals",
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'No build needed for static site'",
+    "deploy": "vercel --prod"
+  },
+  "keywords": [
+    "defi",
+    "web3",
+    "polygon",
+    "base",
+    "karma",
+    "ritual"
+  ],
+  "author": "KARMA.RITUAL Team",
+  "license": "MIT",
+  "dependencies": {
+    "mongodb": "^6.3.0"
+  },
+  "devDependencies": {
+    "vercel": "^33.0.0"
+  }
+}
